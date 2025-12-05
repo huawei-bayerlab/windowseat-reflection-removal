@@ -116,5 +116,5 @@ Please cite our paper:
 
 ## License
 
-The code and models of this work is licensed under the Apache License, Version 2.0.
+The code and models of this work are licensed under the Apache License, Version 2.0.
 By downloading and using the code and model you agree to the terms in [LICENSE](LICENSE.txt).

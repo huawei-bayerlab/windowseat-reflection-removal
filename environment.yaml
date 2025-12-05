@@ -1,0 +1,11 @@
+name: windowseat
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.12.11
+  - pytorch-cuda=12.4  
+  - pip 
+  - pip:
+    - -r requirements.max.txt

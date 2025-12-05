@@ -1,0 +1,14 @@
+accelerate
+bitsandbytes
+diffusers
+huggingface_hub
+imageio
+imageio-ffmpeg
+peft
+Pillow
+safetensors
+scikit-image
+torch
+torchvision
+tqdm
+transformers

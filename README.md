@@ -22,7 +22,7 @@
 </p>
 
 
-![Teaser](./doc/images/windowseat_teaser.png)
+![Teaser](./doc/images/windowseat_teaser.jpg)
 
 
 ## Visualizations

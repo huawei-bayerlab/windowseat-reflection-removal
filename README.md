@@ -7,20 +7,23 @@
   <a href="LICENSE.txt"><img src="https://img.shields.io/badge/License-Apache--2.0-929292"></a>
 </p>
 
-![Teaser](./doc/images/windowseat_teaser.png)
-
-<p class="authors" style="text-align:center; margin-bottom:0;">
+<p align="center">
   <b>Daniyar Zakarin</b><sup>*1,2</sup>,
   <b>Thiemo Wandel</b><sup>*2</sup>,
   <b>Anton Obukhov</b><sup>†1,2</sup>,
   <b>Dengxin Dai</b><sup>2</sup>
+  <br>
+  <sub>
+    <sup>1</sup>ETH Zurich &nbsp;&nbsp;|&nbsp;&nbsp;
+    <sup>2</sup>Huawei Bayer Lab &nbsp;&nbsp;|&nbsp;&nbsp;
+    <sup>*</sup>Equal contributors &nbsp;&nbsp;|&nbsp;&nbsp;
+    <sup>†</sup>Project lead
+  </sub>
 </p>
-<p class="affils" style="text-align:center; margin-top:0.0em;">
-  <sup>1</sup>ETH Zurich &nbsp;&nbsp;|&nbsp;&nbsp;
-  <sup>2</sup>Huawei Bayer Lab &nbsp;&nbsp;|&nbsp;&nbsp;
-  <sup>*</sup>Equal contributors &nbsp;&nbsp;|&nbsp;&nbsp;
-  <sup>†</sup>Project lead
-</p>
+
+
+![Teaser](./doc/images/windowseat_teaser.png)
+
 
 ## Visualizations
 

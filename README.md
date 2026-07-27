@@ -103,14 +103,12 @@ python windowseat_reproducibility.py --batch-size=4 --num-workers=4
 Please cite our paper:
 
 ```bibtex
-@misc{zakarin2025reflectionremovalefficientadaptation,
-  title        = {Reflection Removal through Efficient Adaptation of Diffusion Transformers},
-  author       = {Daniyar Zakarin and Thiemo Wandel and Anton Obukhov and Dengxin Dai},
-  year         = {2025},
-  eprint       = {2512.05000},
-  archivePrefix= {arXiv},
-  primaryClass = {cs.CV},
-  url          = {https://arxiv.org/abs/2512.05000},
+@InProceedings{Zakarin_2026_CVPR,
+  author    = {Zakarin, Daniyar and Wandel, Thiemo and Obukhov, Anton and Dai, Dengxin},
+  title     = {Reflection Removal through Efficient Adaptation of Diffusion Transformers},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+  year      = {2026},
+  pages     = {2776--2785}
 }
 ```
 

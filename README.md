@@ -1,10 +1,10 @@
 <h1 style="text-align:center;">🪟 WindowSeat: Reflection Removal through Efficient Adaptation of Diffusion Transformers</h1>
 
 <p align="center">
-  <a href="https://hf.co/spaces/huawei-bayerlab/windowseat-reflection-removal-web"><img src="https://img.shields.io/badge/%F0%9F%A4%8D%20Project%20-Website-blue"></a>
-  <a href="https://arxiv.org/abs/2512.05000"><img src="https://img.shields.io/badge/arXiv-PDF-b31b1b"></a>
-  <a href="https://huggingface.co/huawei-bayerlab/windowseat-reflection-removal-v1-0"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face%20-Model-yellow"></a>
-  <a href="LICENSE.txt"><img src="https://img.shields.io/badge/License-Apache--2.0-929292"></a>
+  <a href="https://hf.co/spaces/huawei-bayerlab/windowseat-reflection-removal-web"><img src="assets/shields/project-website.svg"></a>
+  <a href="https://arxiv.org/abs/2512.05000"><img src="assets/shields/arxiv-pdf.svg"></a>
+  <a href="https://huggingface.co/huawei-bayerlab/windowseat-reflection-removal-v1-0"><img src="assets/shields/huggingface-model-yellow.svg"></a>
+  <a href="LICENSE.txt"><img src="assets/shields/license-apache-2.0.svg"></a>
 </p>
 
 <p align="center">
@@ -26,9 +26,9 @@
 ## News
 
 2026-09-13: Mirrored on ModelScope:
-<sub><a href="https://www.modelscope.cn/studios/huawei-bayerlab/windowseat-reflection-removal-web" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ModelScope-Website-1e8080?logo=modelscope&logoColor=white" height="17" alt="ModelScope website"></a>
-<a href="https://www.modelscope.cn/models/huawei-bayerlab/windowseat-reflection-removal-v1-0" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ModelScope-Model-8a740f?logo=modelscope&logoColor=white" height="17" alt="ModelScope model"></a>
-<a href="https://www.modelscope.cn/studios/huawei-bayerlab/windowseat-reflection-removal" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/ModelScope-Demo-3c853c?logo=modelscope&logoColor=white" height="17" alt="ModelScope demo"></a></sub><br>
+<sub><a href="https://www.modelscope.cn/studios/huawei-bayerlab/windowseat-reflection-removal-web" target="_blank" rel="noopener noreferrer"><img src="assets/shields/modelscope-website.svg" height="17" alt="ModelScope website"></a>
+<a href="https://www.modelscope.cn/models/huawei-bayerlab/windowseat-reflection-removal-v1-0" target="_blank" rel="noopener noreferrer"><img src="assets/shields/modelscope-model.svg" height="17" alt="ModelScope model"></a>
+<a href="https://www.modelscope.cn/studios/huawei-bayerlab/windowseat-reflection-removal" target="_blank" rel="noopener noreferrer"><img src="assets/shields/modelscope-demo.svg" height="17" alt="ModelScope demo"></a></sub><br>
 2026-06-04: Presented at the NTIRE workshop at CVPR 2026.<br>
 2025-12-05: Initial release: inference code, the released checkpoint, and the demo.<br>
 

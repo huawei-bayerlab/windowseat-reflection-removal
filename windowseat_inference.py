@@ -1,5 +1,6 @@
 import argparse
 import functools
+import inspect
 import json
 import math
 import os
@@ -42,6 +43,13 @@ def fetch_state_dict(
     else:
         state_dict = torch.load(file_path, weights_only=True)
     return state_dict
+
+
+# diffusers 0.40 dropped `txt_seq_lens` from QwenImageTransformer2DModel.forward: the text
+# lengths are derived from `encoder_hidden_states_mask` instead. Older releases still take it.
+TRANSFORMER_TAKES_TXT_SEQ_LENS = (
+    "txt_seq_lens" in inspect.signature(QwenImageTransformer2DModel.forward).parameters
+)
 
 
 def load_qwen_vae(uri: str, device: torch.device):
@@ -195,6 +203,7 @@ def flow_step(
 
     img_shapes = [[(1, h_img, w_img)]] * B
     txt_seq_lens = prompt_mask.sum(dim=1).tolist() if prompt_mask is not None else None
+    txt_seq_lens_kwargs = {"txt_seq_lens": txt_seq_lens} if TRANSFORMER_TAKES_TXT_SEQ_LENS else {}
 
     if getattr(transformer, "attention_kwargs", None) is None:
         attention_kwargs = {}
@@ -208,7 +217,7 @@ def flow_step(
             encoder_hidden_states=prompt_embeds,  # [B, L, D]
             encoder_hidden_states_mask=prompt_mask,  # [B, L]
             img_shapes=img_shapes,  # single stream per batch
-            txt_seq_lens=txt_seq_lens,
+            **txt_seq_lens_kwargs,
             guidance=None,
             attention_kwargs=attention_kwargs,
             return_dict=False,
